@@ -5,11 +5,8 @@
       "name": "John Doe",
       "title": "Expert en UX Design",
       "disponibilite": "disponible",
-      "competences": ["Figma", "Adobe XD", "Sketch", "UX Design", "UI Design", "Prototypage"],
-      "tjm": 650,
-      "description": "Expert en UX Design avec plus de 10 ans d'expérience",
-      "email": "john.doe@example.com",
-      "linkedin": "https://linkedin.com/in/johndoe"
+      "competences": ["Figma", "Adobe XD"],
+      "tjm": 650
     }
   ]
 }
