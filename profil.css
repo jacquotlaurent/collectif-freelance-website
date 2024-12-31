@@ -1,0 +1,133 @@
+/* Styles spécifiques à la page profil */
+.profil-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.profil-header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.profil-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profil-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profession {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.disponibilite {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.disponible {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.disponible-1-mois {
+    background-color: #FFA726;
+    color: white;
+}
+
+.non-disponible {
+    background-color: #f44336;
+    color: white;
+}
+
+.tjm {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.competences-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.competence {
+    background: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.competence h3 {
+    margin-bottom: 1rem;
+}
+
+.competence ul {
+    list-style: none;
+}
+
+.competence li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.competence li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+.realisations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.realisation {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.realisation img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.realisation h3, .realisation p {
+    padding: 0.5rem 1rem;
+}
+
+.contact-direct {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .profil-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .competences-grid, .realisations-grid {
+        grid-template-columns: 1fr;
+    }
+}
