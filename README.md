@@ -1,1 +1,32 @@
-{"content": "# Collectif Freelance Website\n\nSite web pour le collectif de freelances avec interface d'administration.\n\n## Installation\n\n```bash\n# Cloner le repository\ngit clone https://github.com/jacquotlaurent/collectif-freelance-website.git\n\n# Accéder au dossier\ncd collectif-freelance-website\n\n# Installer les dépendances\nnpm install\n\n# Lancer le serveur de développement\nnpm run dev\n```\n\n## Accès à l'administration\n\nIdentifiants de test :\n- Utilisateur : admin\n- Mot de passe : admin123\n\n## Technologies utilisées\n\n- React\n- Vite\n- TailwindCSS\n- React Router\n", "encoding": "utf-8"}
+# Collectif Freelance Website
+
+Site web pour le collectif de freelances avec interface d'administration.
+
+## Installation
+
+```bash
+# Cloner le repository
+git clone https://github.com/jacquotlaurent/collectif-freelance-website.git
+
+# Accéder au dossier
+cd collectif-freelance-website
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+```
+
+## Accès à l'administration
+
+Identifiants de test :
+- Utilisateur : admin
+- Mot de passe : admin123
+
+## Technologies utilisées
+
+- React
+- Vite
+- TailwindCSS
+- React Router
