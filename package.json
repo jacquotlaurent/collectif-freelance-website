@@ -1,1 +1,25 @@
-{"encoding": "base64", "content": "ewogICJuYW1lIjogImNvbGxlY3RpZi1mcmVlbGFuY2Utd2Vic2l0ZSIsCiAgInR5cGUiOiAibW9kdWxlIiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInNjcmlwdHMiOiB7CiAgICAiZGV2IjogInZpdGUiLAogICAgImJ1aWxkIjogInZpdGUgYnVpbGQiLAogICAgInByZXZpZXciOiAidml0ZSBwcmV2aWV3IgogIH0sCiAgInZlcnNpb24iOiAiMC4wLjAiLAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAicmVhY3QiOiAiXjE4LjIuMCIsCiAgICAicmVhY3QtZG9tIjogIl4xOC4yLjAiLAogICAgInRhaWx3aW5kY3NzIjogIl4zLjQuMSIsCiAgICAicmVhY3Qtcm91dGVyLWRvbSI6ICJeNi4yMS4xIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJ2aXRlIjogIl41LjAuOCIsCiAgICAicG9zdGNzcyI6ICJeOC40LjMyIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE4LjIuNDMiLAogICAgImF1dG9wcmVmaXhlciI6ICJeMTAuNC4xNiIsCiAgICAiQHR5cGVzL3JlYWN0LWRvbSI6ICJeMTguMi4xNyIsCiAgICAiQHZpdGVqcy9wbHVnaW4tcmVhY3QiOiAiXjQuMi4xIgogIH0KfQ=="}
+{
+  "name": "collectif-freelance-website",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1",
+    "react-router-dom": "^6.21.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "postcss": "^8.4.32",
+    "@types/react": "^18.2.43",
+    "autoprefixer": "^10.4.16",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1"
+  }
+}
